@@ -127,6 +127,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="02_변수.cpp" />
     <ClCompile Include="CppStudy.cpp" />
     <ClCompile Include="01_입출력.cpp" />
   </ItemGroup>

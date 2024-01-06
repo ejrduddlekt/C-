@@ -8,21 +8,16 @@
 
 int main()
 {
-    int nAge;
-    std::cout << "나이를 입력하세요." << std::endl;
-    std::cin >> nAge;
+    //선언 및 정의
+    int a = 10; // C언어 스타일
+    int b(10);  // C++ 스타일
 
-    char szJob[32];
-    std::cout << "직업을 입력하세요." << std::endl;
-    std::cin >> szJob;
-
-    std::string strName;
-    std::cout << "이름을 입력하세요" << std::endl;
-    std::cin >> strName;
-
-    std::cout << "당신의 이름은 " << strName << "이고, "
-        << "나이는 " << nAge << "살이며, " << "직업은 " << szJob << "입니다." << std::endl;
-
+    
+    int c(10);
+    auto d(c); //c#의 var와 비슷하며, 원본의 선언을 따라간다.
+    int(10); //이름이 없는 인스턴스 선언이다.
+    
+    std::cout << int(10) << std::endl;
     return 0;
 }
 
