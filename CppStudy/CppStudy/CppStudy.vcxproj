@@ -128,8 +128,11 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="02_변수.cpp" />
+    <ClCompile Include="03_메모리동적할당.cpp" />
+    <ClCompile Include="04_참조자형식.cpp" />
     <ClCompile Include="CppStudy.cpp" />
     <ClCompile Include="01_입출력.cpp" />
+    <ClCompile Include="05_R-Value.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

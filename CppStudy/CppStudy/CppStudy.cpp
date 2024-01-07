@@ -5,20 +5,20 @@
 #include <string>
 #include <cstdio>
 #include <iostream>
+using namespace std;
 
 int main()
 {
-    //선언 및 정의
-    int a = 10; // C언어 스타일
-    int b(10);  // C++ 스타일
+    //객체를 배열형태로 동적 생성한다.
+    int* arr = new int[5];
+    for (int i = 0; i < 5; ++i)
+        arr[i] = (i + 1) * 10;
 
-    
-    int c(10);
-    auto d(c); //c#의 var와 비슷하며, 원본의 선언을 따라간다.
-    int(10); //이름이 없는 인스턴스 선언이다.
-    
-    std::cout << int(10) << std::endl;
-    return 0;
+    for (int i = 0; i < 5; ++i)
+        cout << arr[i] << endl;
+
+    // 배열형태로 생성한 대상은 반드시 배열 형태를 통해 삭제한다.
+    delete[] arr;
 }
 
 // 프로그램 실행: <Ctrl+F5> 또는 [디버그] > [디버깅하지 않고 시작] 메뉴

@@ -13,16 +13,28 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="소스 파일\1장">
+      <UniqueIdentifier>{bcae7aba-eb02-4c31-bbca-7cfeffc0baba}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="CppStudy.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="01_입출력.cpp">
-      <Filter>소스 파일</Filter>
+      <Filter>소스 파일\1장</Filter>
     </ClCompile>
     <ClCompile Include="02_변수.cpp">
-      <Filter>소스 파일</Filter>
+      <Filter>소스 파일\1장</Filter>
+    </ClCompile>
+    <ClCompile Include="03_메모리동적할당.cpp">
+      <Filter>소스 파일\1장</Filter>
+    </ClCompile>
+    <ClCompile Include="04_참조자형식.cpp">
+      <Filter>소스 파일\1장</Filter>
+    </ClCompile>
+    <ClCompile Include="05_R-Value.cpp">
+      <Filter>소스 파일\1장</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
