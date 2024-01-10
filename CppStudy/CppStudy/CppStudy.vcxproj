@@ -130,10 +130,11 @@
     <ClCompile Include="02_변수.cpp" />
     <ClCompile Include="03_메모리동적할당.cpp" />
     <ClCompile Include="04_참조자형식.cpp" />
+    <ClCompile Include="01.함수의 디폴드 매개변수.cpp" />
     <ClCompile Include="CppStudy.cpp" />
     <ClCompile Include="01_입출력.cpp" />
     <ClCompile Include="05_R-Value.cpp" />
-    <ClCompile Include="범위기반for문.cpp" />
+    <ClCompile Include="06.범위기반for문.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

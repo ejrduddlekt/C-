@@ -16,6 +16,9 @@
     <Filter Include="소스 파일\1장">
       <UniqueIdentifier>{bcae7aba-eb02-4c31-bbca-7cfeffc0baba}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\2장">
+      <UniqueIdentifier>{7fb38959-5bbb-40c5-849d-65d35980a413}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="CppStudy.cpp">
@@ -36,8 +39,11 @@
     <ClCompile Include="05_R-Value.cpp">
       <Filter>소스 파일\1장</Filter>
     </ClCompile>
-    <ClCompile Include="범위기반for문.cpp">
+    <ClCompile Include="06.범위기반for문.cpp">
       <Filter>소스 파일\1장</Filter>
+    </ClCompile>
+    <ClCompile Include="01.함수의 디폴드 매개변수.cpp">
+      <Filter>소스 파일\2장</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

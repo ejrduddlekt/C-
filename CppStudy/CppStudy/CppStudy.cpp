@@ -17,13 +17,28 @@
 #include <iostream>
 using namespace std;
 
+/*
+템플릿 함수
+*/
 
 
+//int Add(int  a, int b) {
+//	return a + b;
+//}
+//
+//int Add(double a, double b) {
+//	return a + b;
+//}
 
-int main()
-{
-
-	return 0;
+template <typename T>
+T Add(T a, T b) {
+	return a + b;
 }
 
 
+//Caller
+int main()
+{
+	cout << Add(3, 4) << endl;
+	return 0;
+}
