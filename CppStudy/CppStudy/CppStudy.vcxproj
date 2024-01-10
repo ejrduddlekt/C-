@@ -133,6 +133,7 @@
     <ClCompile Include="CppStudy.cpp" />
     <ClCompile Include="01_입출력.cpp" />
     <ClCompile Include="05_R-Value.cpp" />
+    <ClCompile Include="범위기반for문.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
