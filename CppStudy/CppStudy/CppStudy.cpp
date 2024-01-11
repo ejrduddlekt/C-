@@ -11,34 +11,4 @@
 //   5. [프로젝트] > [새 항목 추가]로 이동하여 새 코드 파일을 만들거나, [프로젝트] > [기존 항목 추가]로 이동하여 기존 코드 파일을 프로젝트에 추가합니다.
 //   6. 나중에 이 프로젝트를 다시 열려면 [파일] > [열기] > [프로젝트]로 이동하고 .sln 파일을 선택합니다.
 
-#include <iostream>
-#include <string>
-#include <cstdio>
-#include <iostream>
-using namespace std;
 
-/*
-템플릿 함수
-*/
-
-
-//int Add(int  a, int b) {
-//	return a + b;
-//}
-//
-//int Add(double a, double b) {
-//	return a + b;
-//}
-
-template <typename T>
-T Add(T a, T b) {
-	return a + b;
-}
-
-
-//Caller
-int main()
-{
-	cout << Add(3, 4) << endl;
-	return 0;
-}

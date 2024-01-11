@@ -127,7 +127,9 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="02.템플릿함수.cpp" />
     <ClCompile Include="02_변수.cpp" />
+    <ClCompile Include="03.인라인함수.cpp" />
     <ClCompile Include="03_메모리동적할당.cpp" />
     <ClCompile Include="04_참조자형식.cpp" />
     <ClCompile Include="01.함수의 디폴드 매개변수.cpp" />

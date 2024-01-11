@@ -1,4 +1,4 @@
-﻿  01.함수의 디폴드 매개변수.cpp
-  CppStudy.cpp
-  코드를 생성하고 있습니다...
+﻿  03.인라인함수.cpp
+D:\Native\CppStudy\CppStudy\CppStudy\03.인라인함수.cpp(45,18): warning C4474: 'scanf_s' : 서식 문자열에 전달된 인수가 너무 많습니다.
+D:\Native\CppStudy\CppStudy\CppStudy\03.인라인함수.cpp(45,18): message : 자리 표시자 및 해당 매개 변수에는 variadic 인수가 0개 필요하지만 2개가 제공되었습니다.
   CppStudy.vcxproj -> D:\Native\CppStudy\CppStudy\x64\Debug\CppStudy.exe
